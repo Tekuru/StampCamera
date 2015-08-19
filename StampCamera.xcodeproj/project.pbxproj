@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923CBAD91B6CA9DB009A5CE9 /* Stamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CBAD81B6CA9DB009A5CE9 /* Stamp.swift */; };
+		9249166F1B75EA3000402149 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249166E1B75EA3000402149 /* DrawView.swift */; };
+		92BC928D1B63747D00433293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC928C1B63747D00433293 /* AppDelegate.swift */; };
+		92BC928F1B63747D00433293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC928E1B63747D00433293 /* ViewController.swift */; };
+		92BC92921B63747D00433293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92BC92901B63747D00433293 /* Main.storyboard */; };
+		92BC92941B63747D00433293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BC92931B63747D00433293 /* Images.xcassets */; };
+		92BC92971B63747E00433293 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92BC92951B63747E00433293 /* LaunchScreen.xib */; };
+		92BC92A31B63747E00433293 /* StampCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC92A21B63747E00433293 /* StampCameraTests.swift */; };
+		92BC92AD1B637B6900433293 /* StampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC92AC1B637B6900433293 /* StampViewController.swift */; };
+		92BC92B41B637BDB00433293 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC92AE1B637BDB00433293 /* 1.png */; };
+		92BC92B51B637BDB00433293 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC92AF1B637BDB00433293 /* 2.png */; };
+		92BC92B61B637BDB00433293 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC92B01B637BDB00433293 /* 3.png */; };
+		92BC92B71B637BDB00433293 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC92B11B637BDB00433293 /* 4.png */; };
+		92BC92B81B637BDB00433293 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC92B21B637BDB00433293 /* 5.png */; };
+		92BC92B91B637BDB00433293 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC92B31B637BDB00433293 /* 6.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92BC929D1B63747E00433293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92BC927F1B63747D00433293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92BC92861B63747D00433293;
+			remoteInfo = StampCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		923CBAD81B6CA9DB009A5CE9 /* Stamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stamp.swift; sourceTree = "<group>"; };
+		9249166E1B75EA3000402149 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		92BC92871B63747D00433293 /* StampCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StampCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BC928B1B63747D00433293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BC928C1B63747D00433293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92BC928E1B63747D00433293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92BC92911B63747D00433293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92BC92931B63747D00433293 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92BC92961B63747E00433293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		92BC929C1B63747E00433293 /* StampCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BC92A11B63747E00433293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BC92A21B63747E00433293 /* StampCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampCameraTests.swift; sourceTree = "<group>"; };
+		92BC92AC1B637B6900433293 /* StampViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StampViewController.swift; sourceTree = "<group>"; };
+		92BC92AE1B637BDB00433293 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		92BC92AF1B637BDB00433293 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		92BC92B01B637BDB00433293 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		92BC92B11B637BDB00433293 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		92BC92B21B637BDB00433293 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		92BC92B31B637BDB00433293 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92BC92841B63747D00433293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BC92991B63747E00433293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92BC927E1B63747D00433293 = {
+			isa = PBXGroup;
+			children = (
+				92BC92AE1B637BDB00433293 /* 1.png */,
+				92BC92AF1B637BDB00433293 /* 2.png */,
+				92BC92B01B637BDB00433293 /* 3.png */,
+				92BC92B11B637BDB00433293 /* 4.png */,
+				92BC92B21B637BDB00433293 /* 5.png */,
+				92BC92B31B637BDB00433293 /* 6.png */,
+				92BC92891B63747D00433293 /* StampCamera */,
+				92BC929F1B63747E00433293 /* StampCameraTests */,
+				92BC92881B63747D00433293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92BC92881B63747D00433293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92BC92871B63747D00433293 /* StampCamera.app */,
+				92BC929C1B63747E00433293 /* StampCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92BC92891B63747D00433293 /* StampCamera */ = {
+			isa = PBXGroup;
+			children = (
+				92BC928C1B63747D00433293 /* AppDelegate.swift */,
+				92BC928E1B63747D00433293 /* ViewController.swift */,
+				92BC92AC1B637B6900433293 /* StampViewController.swift */,
+				923CBAD81B6CA9DB009A5CE9 /* Stamp.swift */,
+				9249166E1B75EA3000402149 /* DrawView.swift */,
+				92BC92901B63747D00433293 /* Main.storyboard */,
+				92BC92931B63747D00433293 /* Images.xcassets */,
+				92BC92951B63747E00433293 /* LaunchScreen.xib */,
+				92BC928A1B63747D00433293 /* Supporting Files */,
+			);
+			path = StampCamera;
+			sourceTree = "<group>";
+		};
+		92BC928A1B63747D00433293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92BC928B1B63747D00433293 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92BC929F1B63747E00433293 /* StampCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				92BC92A21B63747E00433293 /* StampCameraTests.swift */,
+				92BC92A01B63747E00433293 /* Supporting Files */,
+			);
+			path = StampCameraTests;
+			sourceTree = "<group>";
+		};
+		92BC92A01B63747E00433293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92BC92A11B63747E00433293 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92BC92861B63747D00433293 /* StampCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BC92A61B63747E00433293 /* Build configuration list for PBXNativeTarget "StampCamera" */;
+			buildPhases = (
+				92BC92831B63747D00433293 /* Sources */,
+				92BC92841B63747D00433293 /* Frameworks */,
+				92BC92851B63747D00433293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StampCamera;
+			productName = StampCamera;
+			productReference = 92BC92871B63747D00433293 /* StampCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92BC929B1B63747E00433293 /* StampCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BC92A91B63747E00433293 /* Build configuration list for PBXNativeTarget "StampCameraTests" */;
+			buildPhases = (
+				92BC92981B63747E00433293 /* Sources */,
+				92BC92991B63747E00433293 /* Frameworks */,
+				92BC929A1B63747E00433293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92BC929E1B63747E00433293 /* PBXTargetDependency */,
+			);
+			name = StampCameraTests;
+			productName = StampCameraTests;
+			productReference = 92BC929C1B63747E00433293 /* StampCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92BC927F1B63747D00433293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Tekuru;
+				TargetAttributes = {
+					92BC92861B63747D00433293 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					92BC929B1B63747E00433293 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 92BC92861B63747D00433293;
+					};
+				};
+			};
+			buildConfigurationList = 92BC92821B63747D00433293 /* Build configuration list for PBXProject "StampCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92BC927E1B63747D00433293;
+			productRefGroup = 92BC92881B63747D00433293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92BC92861B63747D00433293 /* StampCamera */,
+				92BC929B1B63747E00433293 /* StampCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92BC92851B63747D00433293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BC92921B63747D00433293 /* Main.storyboard in Resources */,
+				92BC92B71B637BDB00433293 /* 4.png in Resources */,
+				92BC92B41B637BDB00433293 /* 1.png in Resources */,
+				92BC92B91B637BDB00433293 /* 6.png in Resources */,
+				92BC92B51B637BDB00433293 /* 2.png in Resources */,
+				92BC92B61B637BDB00433293 /* 3.png in Resources */,
+				92BC92B81B637BDB00433293 /* 5.png in Resources */,
+				92BC92971B63747E00433293 /* LaunchScreen.xib in Resources */,
+				92BC92941B63747D00433293 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BC929A1B63747E00433293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92BC92831B63747D00433293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BC92AD1B637B6900433293 /* StampViewController.swift in Sources */,
+				9249166F1B75EA3000402149 /* DrawView.swift in Sources */,
+				92BC928F1B63747D00433293 /* ViewController.swift in Sources */,
+				92BC928D1B63747D00433293 /* AppDelegate.swift in Sources */,
+				923CBAD91B6CA9DB009A5CE9 /* Stamp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BC92981B63747E00433293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BC92A31B63747E00433293 /* StampCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92BC929E1B63747E00433293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92BC92861B63747D00433293 /* StampCamera */;
+			targetProxy = 92BC929D1B63747E00433293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92BC92901B63747D00433293 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BC92911B63747D00433293 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92BC92951B63747E00433293 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BC92961B63747E00433293 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92BC92A41B63747E00433293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92BC92A51B63747E00433293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92BC92A71B63747E00433293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StampCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92BC92A81B63747E00433293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StampCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92BC92AA1B63747E00433293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StampCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StampCamera.app/StampCamera";
+			};
+			name = Debug;
+		};
+		92BC92AB1B63747E00433293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StampCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StampCamera.app/StampCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92BC92821B63747D00433293 /* Build configuration list for PBXProject "StampCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BC92A41B63747E00433293 /* Debug */,
+				92BC92A51B63747E00433293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92BC92A61B63747E00433293 /* Build configuration list for PBXNativeTarget "StampCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BC92A71B63747E00433293 /* Debug */,
+				92BC92A81B63747E00433293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92BC92A91B63747E00433293 /* Build configuration list for PBXNativeTarget "StampCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BC92AA1B63747E00433293 /* Debug */,
+				92BC92AB1B63747E00433293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92BC927F1B63747D00433293 /* Project object */;
+}
